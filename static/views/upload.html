@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cobalt Docs</title>
+</head>
+<body>
+    <h1>Cobalt Docs</h1>
+    <h3>Upload Document</h3>
+    <form id="form" onsubmit="event.preventDefault(); upload();">
+        Type: <input id="type"><br/>
+        Name: <input id="filename"><br/>
+        <!-- Description: <input><br/> -->
+        <input type="file" id="file"><br/>
+        <input type="submit" id="submit">
+    </form>
+    <script src="/scripts/upload.js"></script>
+</body>
+</html>
